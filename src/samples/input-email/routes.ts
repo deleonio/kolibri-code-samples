@@ -1,8 +1,9 @@
-import { Routes } from "../../shares/types";
-import { InputEmailBasic } from "./basic";
+import { Routes } from '../../shares/types';
+
+import { InputEmailBasic } from './basic';
 
 export const INPUT_EMAIL_ROUTES: Routes = {
-  "input-email": {
-    basic: InputEmailBasic
-  }
+	'input-email': {
+		basic: InputEmailBasic,
+	},
 };

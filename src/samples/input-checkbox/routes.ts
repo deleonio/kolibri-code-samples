@@ -1,8 +1,9 @@
-import { Routes } from "../../shares/types";
-import { InputCheckboxBasic } from "./basic";
+import { Routes } from '../../shares/types';
+
+import { InputCheckboxBasic } from './basic';
 
 export const INPUT_CHECKBOX_ROUTES: Routes = {
-  "input-checkbox": {
-    basic: InputCheckboxBasic
-  }
+	'input-checkbox': {
+		basic: InputCheckboxBasic,
+	},
 };

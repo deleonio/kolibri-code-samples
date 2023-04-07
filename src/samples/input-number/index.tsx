@@ -1,10 +1,13 @@
-import { FC } from "react";
-import { Navigate, Route, Routes } from "react-router";
-import { InputNumberBasic } from "./basic";
+import React from 'react';
+import { FC } from 'react';
+
+import { Navigate, Route, Routes } from 'react-router';
+
+import { InputNumberBasic } from './basic';
 
 export const InputNumber: FC = () => (
-  <Routes>
-    <Route path="/" element={<Navigate to="basic" />} />
-    <Route path="/basic" element={<InputNumberBasic />} />
-  </Routes>
+	<Routes>
+		<Route path="/" element={<Navigate to="basic" />} />
+		<Route path="/basic" element={<InputNumberBasic />} />
+	</Routes>
 );

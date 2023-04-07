@@ -1,8 +1,9 @@
-import { Routes } from "../../shares/types";
-import { LinkButtonBasic } from "./basic";
+import { Routes } from '../../shares/types';
+
+import { LinkButtonBasic } from './basic';
 
 export const LINK_BUTTON_ROUTES: Routes = {
-  "link-button": {
-    basic: LinkButtonBasic
-  }
+	'link-button': {
+		basic: LinkButtonBasic,
+	},
 };

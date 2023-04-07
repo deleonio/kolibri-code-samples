@@ -1,5 +1,5 @@
-import { Routes } from "../../shares/types";
+import { Routes } from '../../shares/types';
 
 export const LINK_GROUP_ROUTES: Routes = {
-  "link-group": {}
+	'link-group': {},
 };

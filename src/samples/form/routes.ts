@@ -1,5 +1,5 @@
-import { Routes } from "../../shares/types";
+import { Routes } from '../../shares/types';
 
 export const FORM_ROUTES: Routes = {
-  form: {}
+	form: {},
 };
